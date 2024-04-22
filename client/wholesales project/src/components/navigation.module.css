@@ -1,0 +1,22 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(142, 90, 7);
+}
+.logo img{
+    max-width: 200px;
+    height: auto;
+}
+.siteNav{
+    display: flex;
+    flex: 1 1 auto;
+    background-color: red;
+}
+.siteNav li {
+    display: inline-block;
+    border: 2px solid silver;
+    margin: 1em 2em;
+}
+.siteNav li a {
+    text-decoration: none;
+}
